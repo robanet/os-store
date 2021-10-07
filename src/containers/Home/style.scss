@@ -1,0 +1,51 @@
+.homepage {
+  padding-top: 30px;
+
+  .product-card {
+    border: 1px solid #414A69;
+    border-radius: 12px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+
+    .product-info {
+      background-color: #D1D2E3;
+      padding: 10px 15px;
+
+      .btn-delete {
+        background-color: #F64E60;
+        color: white;
+      }
+    }
+  }
+
+  .products-summary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .price-info {
+      display: flex;
+    }
+
+    .btn-delete-all {
+      background-color: #3699FF;
+      color: white;
+    }
+
+    p {
+      margin-bottom: 0;
+      margin-right: 15px;
+
+      span {
+        color: blue;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
